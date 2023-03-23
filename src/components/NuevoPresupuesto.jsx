@@ -6,6 +6,7 @@ export const NuevoPresupuesto = ({
   setPresupuesto,
   setIsValidPresupuesto,
 }) => {
+
   const [mensaje, setMensaje] = useState("");
 
   const handlePresupuesto = (e) => {
@@ -24,7 +25,7 @@ export const NuevoPresupuesto = ({
     <div className="contenedor-presupuesto contenedor sombra">
       <form onSubmit={handlePresupuesto} className="formulario">
         <div className="campo">
-          <label htmlFor="">Definir Presupuesto</label>
+          <label>Definir Presupuesto</label>
           <input
             type="number"
             className="nuevo-presupuesto"
@@ -36,6 +37,7 @@ export const NuevoPresupuesto = ({
         <input type="submit" value="Añadir" />
 
         {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
+        
       </form>
     </div>
   );

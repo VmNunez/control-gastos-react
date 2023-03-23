@@ -1,5 +1,5 @@
-import { ControlPresupuesto } from "./ControlPresupuesto";
-import { NuevoPresupuesto } from "./NuevoPresupuesto";
+import { ControlPresupuesto } from './ControlPresupuesto';
+import { NuevoPresupuesto } from './NuevoPresupuesto';
 
 export const Header = ({
   presupuesto,
