@@ -8,9 +8,9 @@ export const ControlPresupuesto = ({ presupuesto, gastos }) => {
     const totalGastado = gastos.reduce((total, gasto) => {
       return total + gasto.cantidad;
     }, 0);
-    const totalDisponible = presupuesto - gastado;
-    setGastado(totalGastado);
+    const totalDisponible = presupuesto - totalGastado;
     setDisponible(totalDisponible);
+    setGastado(totalGastado);
   }, [gastos]);
 
   const formatearCantidad = (cantidad) => {
