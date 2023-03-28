@@ -67,7 +67,7 @@ header h1 {
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
-  color: red;
+  color: #DC2626;
 }
 .contenido-presupuesto span {
   font-weight: 900;
@@ -348,4 +348,24 @@ body .modal {
 
 .CircularProgressbar .CircularProgressbar-text {
   font-size: 1rem !important;
+}
+
+
+.filtros .campo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.filtros label {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--gris-oscuro);
+}
+.filtros select {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: var(--gris-claro);
 }
