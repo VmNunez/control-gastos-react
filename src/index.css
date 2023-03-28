@@ -67,7 +67,7 @@ header h1 {
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
-  color: #DC2626;
+  color: #dc2626;
 }
 .contenido-presupuesto span {
   font-weight: 900;
@@ -350,7 +350,6 @@ body .modal {
   font-size: 1rem !important;
 }
 
-
 .filtros .campo {
   display: flex;
   align-items: center;
@@ -368,4 +367,22 @@ body .modal {
   border-radius: 1rem;
   text-align: center;
   background-color: var(--gris-claro);
+}
+
+.reset-app {
+  border: none;
+  background-color: #db2777;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: var(--blanco);
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 1rem;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+.reset-app:hover {
+  background-color: #c71465;
+  cursor: pointer;
 }
