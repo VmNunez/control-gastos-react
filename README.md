@@ -2,6 +2,8 @@
 
 La aplicación permite a los usuarios introducir un presupuesto inicial y llevar un registro detallado de sus gastos personales. Los usuarios pueden agregar sus gastos, especificando la cantidad gastada y la categoría a la que pertenece cada gasto. Además, ofrece la posibilidad de visualizar los gastos registrados de manera clara y concisa mediante gráficos interactivos, lo que facilita la comprensión de los patrones de gasto. La aplicación también cuenta con una función de filtrado que permite a los usuarios explorar sus gastos según las distintas categorías, lo que les brinda un mayor control sobre sus finanzas y les ayuda a tomar decisiones informadas sobre sus hábitos de consumo.
 ## Tabla de contenidos
+- [Control de Gastos](#control-de-gastos)
+  - [Tabla de contenidos](#tabla-de-contenidos)
   - [Vista Previa](#vista-previa)
     - [Screenshot](#screenshot)
     - [Link](#link)
@@ -12,13 +14,13 @@ La aplicación permite a los usuarios introducir un presupuesto inicial y llevar
 ## Vista Previa
 
 ### Screenshot
-Mobile screenshot
+Pantalla de inicio
 
-![](public/img/screenshot/Mobile.png)
+![](src/img/screenshot/pantalla_inicial.png)
 
-Desktop screenshot
+Gestión de gastos
 
-![](public/img/screenshot/Desktop.png)
+![](src/img/screenshot/control_gastos.png)
 
 ### Link
 
